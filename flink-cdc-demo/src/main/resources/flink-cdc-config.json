@@ -1,0 +1,23 @@
+[
+    {
+        "name": "erp.teat_seata_t1",
+        "hostname" : "rm-bp14dy1c89k64zb7cpo.mysql.rds.aliyuncs.com",
+        "port" : 3306,
+        "databaseList" : "erp",
+        "tableList" : "erp.teat_seata_t1",
+        "username" : "gancaocn",
+        "password" : "gancaocn2020#@!",
+        "startupMode" : "TIMESTAMP",
+        "startupTimestampMillis" : 1700447368495
+    },
+    {
+        "name": "erp.e_sys_district_bak",
+        "hostname" : "rm-bp14dy1c89k64zb7cpo.mysql.rds.aliyuncs.com",
+        "port" : 3306,
+        "databaseList" : "erp",
+        "tableList" : "erp.e_sys_district_bak",
+        "username" : "gancaocn",
+        "password" : "gancaocn2020#@!",
+        "startupMode" : "LATEST"
+    }
+]

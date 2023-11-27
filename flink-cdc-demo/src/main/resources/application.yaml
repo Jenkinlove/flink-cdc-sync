@@ -1,0 +1,40 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: flink-cdc-demo
+  profiles:
+    active: dev
+
+flink:
+  enable: true
+  meta-model: file
+
+easy-es:
+  address: localhost:9200
+  enable: true
+  global-config:
+    process-index-mode: manual
+
+logging:
+  level:
+    org:
+      apache:
+        flink: error
+      kafka:
+        connect:
+          json: error
+          runtime: error
+    io:
+      debezium: error
+    com:
+      ververica:
+        cdc:
+          debezium:
+            internal: error
+      github:
+        shyiko:
+          mysql:
+            binlog: error
+
+

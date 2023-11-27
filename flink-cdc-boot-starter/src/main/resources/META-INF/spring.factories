@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.igancao.flinkcdc.config.FlinkJobConfiguration,\
+  cn.igancao.flinkcdc.config.FlinkJobPropertiesConfiguration,\
+  cn.igancao.flinkcdc.config.MetaManagerConfiguration
