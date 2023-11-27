@@ -7,3 +7,6 @@ target/
 # 忽略日志文件
 *.log
 flink-cdc/
+
+# idea
+*.iml
